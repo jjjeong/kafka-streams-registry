@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "name": "DrivingData",
+  "namespace": "com.onboarding.avro",
+  "fields": [
+    { "name": "carTypeId", "type": "string" },
+    { "name": "timestamp", "type": "long" },
+    { "name": "distance", "type": "double" }
+  ]
+}
